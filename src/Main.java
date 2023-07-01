@@ -102,7 +102,7 @@ public class Main {
         }
         if (salario >= 4664.68) {
             salarioImposto = salario - 4664.67;
-            impostoDeRenda = salarioImposto * 0.275;
+            impostoDeRenda += salarioImposto * 0.275;
         }
         return impostoDeRenda;
     }
